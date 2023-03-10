@@ -21,11 +21,9 @@ March 9th, 2023 at 8:30 am central for 90 minutes.
 These are utility scripts used to collect the data and process it.  This, as well as the Arduino source, can be ignored to use the dataset.
 
 ### Why not just use the Helium Mapper Project data?
-While the Mapper project must be collecting similar data, I saw no way to export the raw data from the Mapper project.  Since the primary goal of the mapper project is to provide coverage maps, the raw input data may not be available.  Collecting the data for this project allowed specific location and frequency targeting.
-
+While the Mapper project must be collecting similar data, there is no obvious way to export the raw data from the Mapper project. Since the primary goal of the Mapper project is to provide coverage maps, the raw input data may not be available. Collecting the data for this project also allowed desirable location and frequency targeting.
 
 ### Many thanks:
-
 
 - The Mycelium Networks Builder Program for support and encouragement
 - RAK Wisblock for excellent hardware offerings and code examples
