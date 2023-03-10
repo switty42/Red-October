@@ -6,7 +6,7 @@ The Red October Project collected detailed scans of the Helium LoRa network loca
 
 
 ### Why is the project called Red October?
-In the movie, The Hunt for Red October, the Russians had hyper-accurate surveys of a ridge known as Reykjanes Ridge.  This allowed Russian submarines to navigate the ridge at high speed without the need for additional navigation equipment.   The LoRa scans reminded me of this part of the movie.
+In the movie, The Hunt for Red October, the Russians had hyper-accurate surveys of a ridge known as Reykjanes Ridge. This allowed Russian submarines to navigate the ridge at high speed without the need for additional navigation equipment. The LoRa scans are reminiscent of this part of the movie.
 
 ### How was the data collected?
 A RAK4631 MCU with a corresponding GPS module was used to collect the data and transmit it over Helium LoRa.  The source code for the RAK4631 can be found under Arudino_Source.  The data was transmitted to the Helium Console, where a function was used to decode the GPS coordinates and add a timestamp.  A Helium console webhook was then used to send the data to a web server where the data was recorded.
